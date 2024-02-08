@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'; //core foundation library
+import ReactDOM from 'react-dom/client'; //mainly used for web application 
 
+//DOM ---> tree structure (reacts creates its own virtual DOM)
+
+import App from './App';
+
+
+//root -->id through HTML getting accessed
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+  // creating own HTML tags through react
+  //<React.StrictMode>
+  <App />  //going to the file app.js
+  // </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//we can remove </React.StrictMode> no need 
