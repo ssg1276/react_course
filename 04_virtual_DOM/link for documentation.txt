@@ -1,0 +1,8 @@
+https://github.com/acdlite/react-fiber-architecture
+
+//give it a brief reading
+
+//interview question
+Q. why to use keys to iterate through array of data?
+Ans: Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique." keys optimize the performance of that operation.
+  
